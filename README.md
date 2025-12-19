@@ -6,13 +6,6 @@ A curated list of awesome datasets for Computer Vision and Robotics, with a stro
 
 The goal of this repository is to bridge the gap between datasets and research. Unlike other lists that just provide download links, we aim to provide context by linking each dataset to its associated **research papers**, **state-of-the-art results**, and **code implementations**.
 
-Whether you are working on:
-
-* **Satellite Imagery & Remote Sensing**
-* **Autonomous Navigation**
-* **Object Detection & Segmentation**
-* **Multimodal Learning**
-
 You will find relevant datasets here, correctly cited and tagged.
 
 ## Datasets Collection
@@ -40,6 +33,17 @@ Datasets for autonomous driving, SLAM, and robot manipulation:
 * **Aerial Robotics (UAV)** (Blackbird, UZH-FPV)
 
 [**Explore Robotics Datasets**](datasets/robotics/robotics.md)
+
+### 👁️ [Computer Vision](datasets/computer_vision/computer_vision.md)
+
+General-purpose datasets for fundamental vision tasks:
+
+* **Image Classification** (ImageNet, CIFAR-10, MNIST, Fashion-MNIST)
+* **Object Detection & Segmentation** (COCO, Pascal VOC, Open Images, Cityscapes)
+* **Face Recognition** (LFW, CelebA, MegaFace)
+* **Video & Action** (YouTube-8M, Kinetics)
+
+[**Explore Computer Vision Datasets**](datasets/computer_vision/computer_vision.md)
 
 ---
 

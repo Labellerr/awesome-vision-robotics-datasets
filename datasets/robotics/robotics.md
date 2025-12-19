@@ -1,5 +1,14 @@
 # Robotics Datasets
 
+A curated collection of datasets for **Robotics** and **Autonomous Systems**. This list covers key areas such as:
+
+* **Autonomous Driving** (Perception, 3D Object Detection)
+* **SLAM & Visual Odometry** (indoor/outdoor localization)
+* **Manipulation** (Grasping, Imitation Learning)
+* **Aerial Robotics** (UAV/Drone perception)
+
+Each dataset is linked to its research paper to provide context on the benchmarks and methods used.
+
 | Dataset | Description | Research Paper | Tags | Link |
 | :--- | :--- | :--- | :--- | :---: |
 | **KITTI Vision Benchmark** | Foundational suite for mobile robotics and autonomous driving, including stereo, optical flow, and 3D object detection. | [Are we ready for Autonomous Driving? The KITTI Vision Benchmark Suite](https://www.cvlibs.net/publications/Geiger2012CVPR.pdf) | `driving` `lidar` `stereo` `flow` | [Website](http://www.cvlibs.net/datasets/kitti/) |
