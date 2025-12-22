@@ -1,48 +1,52 @@
-# Awesome Vision & Robotics Datasets  
-A curated list of notable computer vision and robotics datasets.  
+# Awesome Vision to Robotics Datasets
 
-## Computer Vision Datasets  
-- **COCO (Common Objects in Context)**: https://cocodataset.org/  
-- **ImageNet**: https://www.image-net.org/  
-- **Open Images**: https://storage.googleapis.com/openimages/web/index.html  
-- **PASCAL VOC**: http://host.robots.ox.ac.uk/pascal/VOC/  
-- **CIFAR-10/100**: https://www.cs.toronto.edu/~kriz/cifar.html  
-- **MNIST**: http://yann.lecun.com/exdb/mnist/  
-- **Kinetics-700**: https://deepmind.com/research/open-source/kinetics  
-- **DOTA-v2.0**: https://captain-whu.github.io/DOTA/dataset.html  
-- **Ego4D / Ego-Exo4D**: https://ego4d-data.org/  
-- **HACS (Human Action Clips & Segments)**: https://hacs.cs.tsinghua.edu.cn/  
-- **Something-Something v2**: https://20bn.com/datasets/something-something-v2  
-- **Panda-70M**: https://github.com/EricLee07/Panda-70M  
-- **Cityscapes**: https://www.cityscapes-dataset.com/  
-- **KITTI Vision Benchmark Suite**: http://www.cvlibs.net/datasets/kitti/  
-- **ADE20K**: http://groups.csail.mit.edu/vision/datasets/ADE20K/  
-- **LSUN**: https://www.yf.io/p/lsun  
-- **COVID-19 X‑Ray Dataset (V7)**: https://github.com/v7labs/COVID-19-XRay-Dataset  
-- **360+x**: https://github.com/your-org/360x (placeholder link)  
-- **TSP6K**: https://github.com/your-org/TSP6K (placeholder link)  
-- **PandaSet (Vision)**: https://scale.com/pandaset/  
+A curated list of awesome datasets for Computer Vision and Robotics, with a strong focus on connecting datasets to the **latest research papers**.
 
-## Robotics Datasets  
-- **KITTI Vision Benchmark Suite**: http://www.cvlibs.net/datasets/kitti/  
-- **Waymo Open Dataset**: https://waymo.com/open/  
-- **nuScenes**: https://www.nuscenes.org/  
-- **Oxford RobotCar**: https://robotcar-dataset.robots.ox.ac.uk/  
-- **ApolloScape**: http://apolloscape.auto/  
-- **Argoverse**: https://www.argoverse.org/  
-- **PandaSet**: https://scale.com/pandaset/  
-- **TUM RGB‑D Dataset**: https://vision.in.tum.de/data/datasets/rgbd-dataset  
-- **EuRoC MAV Dataset**: https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets  
-- **YCB Video Dataset**: https://rse-lab.cs.washington.edu/projects/posecnn/#dataset  
-- **Cornell Grasp Dataset**: http://pr.cs.cornell.edu/grasping/rect_data/rect_data.shtml  
-- **RoboNet**: https://github.com/robonet  
-- **RLBench**: https://github.com/stepjam/RLBench  
-- **Meta‑World**: https://github.com/rlworkgroup/metaworld  
-- **D4RL**: https://github.com/rail-berkeley/d4rl  
-- **RoboCup Data Sets**: https://www.robocup.org/data-sets  
-- **NVIDIA Open Physical AI Dataset**: https://blogs.nvidia.com/blog/2025/03/18/open-physical-ai-dataset/  
-- **Humanoid Everyday Dataset**: https://arxiv.org/abs/2310.19504  
-- **RoboMimic Dataset**: https://github.com/ARISE-Initiative/robomimic  
-- **Isaac GR00T N1 Training Data**: https://huggingface.co/datasets (search for GR00T N1)  
+## Purpose
 
-Feel free to contribute additional datasets or corrections via pull requests. 
+The goal of this repository is to bridge the gap between datasets and research. Unlike other lists that just provide download links, we aim to provide context by linking each dataset to its associated **research papers**, **state-of-the-art results**, and **code implementations**.
+
+You will find relevant datasets here, correctly cited and tagged.
+
+## Datasets Collection
+
+We organize datasets by category. Check out our growing collections:
+
+### 🛰️ [Satellite & Aerial Imagery](datasets/satellite/satellite.md)
+
+A comprehensive collection of datasets for remote sensing, including:
+
+* **Optical & SAR** (Sentinel-1/2, Landsat)
+* **Object Detection** (Ships, Aircraft, Buildings)
+* **Segmentation** (Land Cover, Cloud Detection, Roads)
+* **Environmental Monitoring** (Deforestation, Fire Risk, Floods)
+
+[**Explore Satellite Datasets**](datasets/satellite/satellite.md)
+
+### 🤖 [Robotics & Autonomous Systems](datasets/robotics/robotics.md)
+
+Datasets for autonomous driving, SLAM, and robot manipulation:
+
+* **Autonomous Driving** (KITTI, Waymo, nuScenes, Cityscapes)
+* **SLAM & Navigation** (TUM RGB-D, EuRoC MAV, Oxford RobotCar)
+* **Manipulation & Grasping** (YCB-Video, Jacquard, BridgeData V2)
+* **Aerial Robotics (UAV)** (Blackbird, UZH-FPV)
+
+[**Explore Robotics Datasets**](datasets/robotics/robotics.md)
+
+### 👁️ [Computer Vision](datasets/computer_vision/computer_vision.md)
+
+General-purpose datasets for fundamental vision tasks:
+
+* **Image Classification** (ImageNet, CIFAR-10, MNIST, Fashion-MNIST)
+* **Object Detection & Segmentation** (COCO, Pascal VOC, Open Images, Cityscapes)
+* **Face Recognition** (LFW, CelebA, MegaFace)
+* **Video & Action** (YouTube-8M, Kinetics)
+
+[**Explore Computer Vision Datasets**](datasets/computer_vision/computer_vision.md)
+
+---
+
+## Contribution
+
+Contributions are welcome! If you know of a new dataset or a research paper that uses a specific dataset, please feel free to open a pull request.
